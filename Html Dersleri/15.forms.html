@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="process.php">
+<!--Html5 İnput-->
+<label for="name">Name</label> <br />
+<input type="text" placeholder="Your Name" id="name" name="name" /> <br />
+ <label for="email">Email</label> <br />
+ <input type="email" id="email" name="email"> <br /> 
+ <label for="password">Password</label>  <br />
+ <input type="password" name="Password"> <br />
+<label for="date">Date</label> <br />
+ <input type="date" id="date" name="date"> <br />
+
+
+ Gender <br>
+ Male
+ <input type="radio" name="Gender" value="male" />
+ Female
+ <input type="radio" name="Gender" value="female" />
+ Other
+ <input type="radio" name="Gender" value="other" checked/> <br />
+
+
+ Hobbies <br>
+ Technology
+ <input type="checkbox" name="tech" id="tech" />
+ Music
+ <input type="checkbox" name="music" id="music" />
+Art
+ <input type="checkbox" name="art" id="art" /> <br />
+
+Degree <br>
+<select name="degree" id="degree">
+    <option value="bachelor">Lisans</option>
+    <option value="msc">Yüksek Lisans</option>   
+     <option value="phd">Doktora</option>
+</select> <br />
+<textarea name="message" id="message" cols="30" rows="10" placeholder="Mesaj Gönder"></textarea> <br />
+<button type="reset">Sıfırla</button>  
+<input type="submit" value="Gönder" /> 
+<!--<button type="submit">Gönder</button> / <input type="submit" value="Gönder" />-->
+
+    </form>
+</body>
+</html>
